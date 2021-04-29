@@ -27,3 +27,38 @@ percent of number of tests above class average = ((number of tests>class average
 
 
 """
+
+
+def enter_score ():
+    grades = [78,67,56,99,80,83,82,91,94,95,77,88,85,92,91,79,88,82,81,86,94,93,92,45]
+    scores = int(input("How many grades were submitted? : "))
+    for i in range(scores):
+        return grades
+
+def calc_average(grades):
+    total=0
+    for student_score in grades:
+        total=total+student_score
+    average= total/len(grades)
+    print("The class average is ", average)
+    return average
+
+def above_average(grades, average_score):
+    above_average_amount=0
+    for student_score in grades:
+        if student_score > average_score:
+            above_average_amount = above_average_amount + 1
+            print("The number of grades above the average is now ", above_average_amount)
+    return above_average_amount
+
+def percent_above_average(above_average_amount, grades):
+    for above_average_amount in above_average:
+        if above_average_amount==13:
+            percent_above_avergage= above_average_amount/len(grades)
+    print("The percent of grades above average is ", percent_above_average)
+    return percent_above_average
+
+grades = enter_score()
+average_score = calc_average(grades)
+above_average_amount = above_average(grades, average_score)
+percent_above_average = percent_above_average(average_score, grades)

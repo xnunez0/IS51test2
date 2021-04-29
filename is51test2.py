@@ -6,3 +6,24 @@ and see how many tests were above the average score. We will then calculate the 
 
 
 """
+
+
+"""
+number of tests sumbmitted = sum of all finals
+total = 24
+
+
+class average = total of all scores / number of tests submitted
+1998 sum of all points / 24 tests = 83.25 % class average
+
+
+number of tests above the grade point average = number of tests > class average
+test score > class avegerage ( we add it them up)
+
+
+percent of number of tests above class average = ((number of tests>class average) / number of tests submitted))
+13 (number of tests above the class average)  / 24 (total tests sumbmitted) = 54.17 % scored above the class average
+
+
+
+"""
